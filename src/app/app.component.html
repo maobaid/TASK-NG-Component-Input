@@ -1,0 +1,16 @@
+<!-- SOL 1 -->
+<!-- <app-cat [pet]="pets[0]"></app-cat>
+<app-dog [pet]="pets[1]"></app-dog>
+<app-rabbit [pet]="pets[2]"></app-rabbit>
+<app-otter [pet]="pets[3]"></app-otter> -->
+
+<!-- BOUNS -->
+<!-- <app-pet [pet]="pets[0]"></app-pet>
+<app-pet [pet]="pets[1]"></app-pet>
+<app-pet [pet]="pets[2]"></app-pet>
+<app-pet [pet]="pets[3]"></app-pet> -->
+
+<!-- Challange -->
+@for (p of pets; track p.id){
+<app-pet [pet]="p"> </app-pet>
+}
