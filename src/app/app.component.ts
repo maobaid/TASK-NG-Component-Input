@@ -21,5 +21,5 @@ import { PetComponent } from './pet/pet.component';
 })
 export class AppComponent {
   title = 'TASK-NG-Passing-Data';
-  pets = pets;
+  pets = pets; 
 }
